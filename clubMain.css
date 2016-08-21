@@ -43,7 +43,19 @@ ul {
     text-decoration: none;
 }
 
-
 #footer {
     height: 15vh;
+}
+
+#map {
+    position: fixed;
+    margin: 0;
+    padding: 2vh;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+}
+
+#mapText {
+    color: black;
 }
