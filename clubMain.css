@@ -1,5 +1,11 @@
 body {
-    background-color: black;
+    
+
+background: #4b6cb7; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #4b6cb7 , #182848); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #4b6cb7 , #182848); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+        
 }
 .day {
     text-align: center;
@@ -13,7 +19,7 @@ body {
 }
 
 .club-info {
-    color: rgb(214, 214, 214);
+    color: rgb(255, 255, 255);
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: 400;
     font-size: 4vh;
@@ -24,7 +30,7 @@ body {
 }
 
 .club-info:hover {
-    color: white;
+    color: #c6c6c6;
     text-decoration: none;
 }
 
@@ -44,7 +50,7 @@ ul {
 }
 
 #footer {
-    height: 15vh;
+    height: 10vh;
 }
 
 #map {
@@ -57,5 +63,5 @@ ul {
 }
 
 #mapText {
-    color: black;
+    color: #4b6cb7;
 }
