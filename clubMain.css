@@ -69,3 +69,7 @@ ul {
 .emoji {
     font-family: 'AppleColorEmoji';
 }
+
+img {
+    height: 3.5vh;
+}
