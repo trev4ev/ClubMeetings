@@ -65,3 +65,7 @@ ul {
 #mapText {
     color: #4b6cb7;
 }
+
+.emoji {
+    font-family: 'AppleColorEmoji';
+}
