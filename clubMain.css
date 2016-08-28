@@ -1,14 +1,8 @@
 body {
-    
-
-background: #4b6cb7; /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #4b6cb7 , #182848); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to left, #4b6cb7 , #182848); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        
-        
-}
-.day {
-    text-align: center;
+    background: #4b6cb7; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #4b6cb7 , #182848); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #4b6cb7 , #182848); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;     
 }
 
 .title {
@@ -26,6 +20,7 @@ background: linear-gradient(to left, #4b6cb7 , #182848); /* W3C, IE 10+/ Edge, F
     list-style-type: none;
     padding: 0;
     margin: 0;
+    margin-bottom: 2.5vh;
     text-decoration: none;
 }
 
@@ -64,6 +59,7 @@ ul {
 
 #mapText {
     color: #4b6cb7;
+    margin: 0;
 }
 
 .emoji {
@@ -72,4 +68,22 @@ ul {
 
 img {
     height: 3.5vh;
+}
+
+#smallImg {
+    height: 2vh;
+    vertical-align: -.2vh;
+}
+
+.inline {
+    display: inline;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 2vh;
 }
