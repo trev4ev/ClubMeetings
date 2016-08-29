@@ -36,10 +36,10 @@ body {
     text-decoration: none;
 }
 
-.club-info:hover {
+/*.club-info:hover {
     color: #b6ccff;
     text-decoration: none;
-}
+}*/
 
 .club-info:visited {
     text-decoration: none;
@@ -116,9 +116,9 @@ h2 {
     text-decoration: underline;
 }
 
-/*#clubs:hover {
+#clubs:hover {
     color: #b6ccff;
-}*/
+}
 
 #clubs:visited {
     text-decoration: none;
