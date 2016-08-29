@@ -116,9 +116,9 @@ h2 {
     text-decoration: underline;
 }
 
-#clubs:hover {
+/*#clubs:hover {
     color: #b6ccff;
-}
+}*/
 
 #clubs:visited {
     text-decoration: none;
