@@ -82,6 +82,11 @@ img {
     height: 3.5vh;
 }
 
+.smallerImg {
+    height: 3vh;
+    vertical-align: -.2vh;
+}
+
 #smallImg {
     height: 2vh;
     vertical-align: -.2vh;
