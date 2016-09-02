@@ -36,17 +36,18 @@ body {
     text-decoration: none;
 }
 
-/*.club-info:hover {
-    color: #b6ccff;
-    text-decoration: none;
-}*/
+a:hover {
+    color: white;
+    text-decoration:underline;
+}
 
-.club-info:visited {
+a:visited {
     text-decoration: none;
 }
 
 a {
-    text-decoration: none;
+    color: white;
+    text-decoration: underline;
 }
 
 ul {
